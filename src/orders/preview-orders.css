@@ -1,0 +1,27 @@
+
+.main-card{
+    width:12rem
+}
+/* 
+.fa-home{
+    color:blue;
+  } */
+
+@media screen and (max-width: 480px ) {
+    .main-card{
+    width:12rem
+    }
+    .img-fluid{
+        width:30% !important;
+    }
+  }
+
+  
+@media screen and (max-width: 768px ) {
+    .main-card{
+       width:auto
+    }
+    .img-fluid{
+        width:30% !important;
+    }
+  }
